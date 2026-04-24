@@ -6,9 +6,10 @@
 clave_almacenada = int(1234)
 clave_ingresada = int(input("por favor ingrese contraseña: "))
 token = str(input("usa token si/no:"))
-if clave_almacenada == clave_ingresada :
+while clave_ingresada in range (0 , 3):
+    clave_almacenada == clave_ingresada
     print ("puede ingresar usuario") 
-elif token == "si":
+if token == "si":
     print("usted puede ingresar")
 else:
     print("usted no puede ingresar")
