@@ -1,0 +1,25 @@
+Ejercicio 2 - Leer codigo y explicarlo
+
+Este ejercicio no es para programar. Lean el codigo y escriban una explicación de que hace.
+
+linea = " mara ; programacion ; 8 "
+
+partes = linea.split(";")
+nombre = partes[0].strip().capitalize()
+materia = partes[1].strip().capitalize()
+nota_texto = partes[2].strip()
+
+if nota_texto.isnumeric():
+    nota = int(nota_texto)
+    print(f"{nombre} cursa {materia} y obtuvo {nota}")
+else:
+    print("La nota no es valida")
+
+Para orientar la explicacion:
+
+    ¿Que queda guardado en partes?
+    ¿Por que se usa strip antes de capitalize?
+    ¿Que dato se esta validando antes de convertirlo?
+    ¿Que imprimiria el programa si en lugar de 8 viniera ocho?
+
+Primero a partir de un texto devuelve una lista(partes) con split, luego con el capitalize tanto en nombre como en materia los pone en mayuscula la primer letra y el resto en minuscula, en la nota le quita los espacios para extraer solo el numero, luego con el if te genera una condicion si isnumeric() devuelve un True, significa que es un numero, pasa esa nota a un entero y muestra por pantalla el print, en caso que no sea un numero pasa al else imprimendo el mensaje del else.

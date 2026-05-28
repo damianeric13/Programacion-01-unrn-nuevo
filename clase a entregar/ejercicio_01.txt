@@ -1,0 +1,22 @@
+Ejercicio 1 - Algunas preguntas
+
+Responder en un archivo de texto plano (.TXT), con sus palabras.
+1. Porque es importante validar los datos que ingresa un usuario?
+2. ¿Que hace strip y en que se diferencia de split?
+3. ¿Para que puede servir count cuando una linea tiene datos separados por comas o por punto y coma?
+4. ¿Que problema pueden traer los espacios de mas al principio o al final de un dato?
+
+Respuestas
+
+1. Por que los datos pueden estar en distintos formatos desde mayusculas y contener carecteres diferentes de los pedidos.
+Por ejemplo pedis año de nacimiento y algun usuario puede llegar a poner los numreos en palabras. EN python para la comparacion debe ser igual al escrito, quiero decir si dice a = "auto" esto no va a ser lo mismo que AUTO O Auto son distintos.
+Tomandolo asi "Auto" diferente "auto". hay diferentes funcione para verificar si es numerico, alfabetico, minisculas, mayusculas, etc.
+Esto ayuda a evitar errores y hace que el programa funcione correctamente.
+
+2. "variable".strip("v"): esto lo que hace es sacar del principio y del final los que tenga el .strip entre sus parentesis.Solo extrae de el principio y el final, el "medio" queda igual.
+Si por ejemplo uso "  hola mundo  ".strip() saca los espacios vacios del principio y el final y si damos un print entrega "hola mundo".
+    "variable".split("a"): esta funcion devuelve una lista cortando la palabra, texto o lo que sea la variable por el o el parametro dicho entre los parentesis por ejemplo a ""variable".split("a") devuelve[v, ri, ble] como lista.
+
+3. "hola,mundo,soy,damian".count(","): ayuda a contar la cantidad de veces que esta la "," en este caso se usa como separador da como resulta un numero(3).
+
+4. A la hora de la validacion de datos, los mismos tienen que ser exactamente iguales tanto en la entrada como la comparacion por ejemplo, si pongo variriable = "hola", y la comparo con "  hola", el interprete devuelve un False por que no son iguales. 
