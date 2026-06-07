@@ -1,0 +1,8 @@
+Ejercicio 1 — Estructuras de datos
+
+Explicá con tus palabras la diferencia entre:
+
+    Lista:una lista de elementos que podemos mover o modificar como nesecitemos. Ejemplo podemos crear una lista de elementos para enumerar y modificar hasta dejar una una lista que nos sirva por ejemplo una lista de verduras.
+    Tupla:una lista de elementos inmutables no se pueden cambiar ni variar. Por ejemplo una tupla de claves al no poder modificar se puede usar de punto de comparacion
+    Conjunto: es similar a los listas pero con mas informacion sin repetidos. por ejemplo quiero puedo pasar una lista a conjunto para quitar los repetidos
+    Diccionario:dicionarios tienen clave y valor solo dos datos. Una Diccionario de usuario y clave o alumno y nota
